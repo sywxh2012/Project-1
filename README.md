@@ -2,24 +2,24 @@
 
 **Movie Viewer** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-- [ ] User can view a list of movies currently playing in theaters from The Movie Database.
-- [ ] Poster images are loaded using the UIImageView category in the AFNetworking library.
-- [ ] User sees a loading state while waiting for the movies API.
-- [ ] User can pull to refresh the movie list.
+- [ y] User can view a list of movies currently playing in theaters from The Movie Database.
+- [ y] Poster images are loaded using the UIImageView category in the AFNetworking library.
+- [ y] User sees a loading state while waiting for the movies API.
+- [ y] User can pull to refresh the movie list.
 
 The following **optional** features are implemented:
 
-- [ ] User sees an error message when there's a networking error.
-- [ ] Movies are displayed using a CollectionView instead of a TableView.
-- [ ] User can search for a movie.
-- [ ] All images fade in as they are loading.
-- [ ] Customize the UI.
+- [n ] User sees an error message when there's a networking error.
+- [n ] Movies are displayed using a CollectionView instead of a TableView.
+- [n ] User can search for a movie.
+- [n ] All images fade in as they are loading.
+- [n ] Customize the UI.
 
 The following **additional** features are implemented:
 
@@ -27,14 +27,14 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. search bar
+2. error message of internet connection
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sywxh2012/Project-1/blob/master/MoviesViewer_videoWalkThrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
