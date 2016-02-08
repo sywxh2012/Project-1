@@ -10,11 +10,11 @@
 		1A639AE49C3C07551829383A /* Pods_Movie_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17744E4A7592F5B37E19641 /* Pods_Movie_Viewer.framework */; };
 		C80411811C56A31500D563ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80411801C56A31500D563ED /* AppDelegate.swift */; };
 		C80411861C56A31500D563ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80411841C56A31500D563ED /* Main.storyboard */; };
-		C80411881C56A31500D563ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80411871C56A31500D563ED /* Assets.xcassets */; };
 		C804118B1C56A31500D563ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80411891C56A31500D563ED /* LaunchScreen.storyboard */; };
 		C80411931C56A40400D563ED /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80411921C56A40400D563ED /* MoviesViewController.swift */; };
 		C80411961C56DC5700D563ED /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80411951C56DC5700D563ED /* MovieCell.swift */; };
 		C8AF3E151C606420005E9A65 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AF3E141C606420005E9A65 /* DetailViewController.swift */; };
+		C8CF7E271C686DA800AE3E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CF7E261C686DA800AE3E50 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		C804117D1C56A31500D563ED /* Movie Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80411801C56A31500D563ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C80411851C56A31500D563ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C80411871C56A31500D563ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C804118A1C56A31500D563ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C804118C1C56A31500D563ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C80411921C56A40400D563ED /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		C80411951C56DC5700D563ED /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		C8AF3E141C606420005E9A65 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C8CF7E261C686DA800AE3E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				C80411941C56DC0200D563ED /* Views */,
 				C80411801C56A31500D563ED /* AppDelegate.swift */,
 				C80411841C56A31500D563ED /* Main.storyboard */,
-				C80411871C56A31500D563ED /* Assets.xcassets */,
 				C80411891C56A31500D563ED /* LaunchScreen.storyboard */,
 				C804118C1C56A31500D563ED /* Info.plist */,
 			);
@@ -96,6 +95,7 @@
 		C80411941C56DC0200D563ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C8CF7E261C686DA800AE3E50 /* Assets.xcassets */,
 				C80411951C56DC5700D563ED /* MovieCell.swift */,
 			);
 			name = Views;
@@ -173,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C804118B1C56A31500D563ED /* LaunchScreen.storyboard in Resources */,
-				C80411881C56A31500D563ED /* Assets.xcassets in Resources */,
+				C8CF7E271C686DA800AE3E50 /* Assets.xcassets in Resources */,
 				C80411861C56A31500D563ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
